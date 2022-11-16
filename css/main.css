@@ -7,17 +7,19 @@ html{
     font-size: 62.5%;
 }
 body{
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
     font-family: 'Roboto Mono', monospace;
 }
 header{
     width: 100%;
     display: grid;
     grid-template-rows: auto 1fr;
+}
+.home-body{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 a{
     text-decoration: none;
@@ -61,7 +63,8 @@ nav .profile-link{
     margin-right: 50px;
 }
 .profile-link a{
-
+    font-size: 1.2rem;
+    line-height: 1.6rem;
     color: black;
     border-bottom: 1px solid black;
 }
